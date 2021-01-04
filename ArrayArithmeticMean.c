@@ -1,7 +1,10 @@
 #include <stdio.h>
+#include <conio.h>
 void ortalama();
 int main() {
     ortalama();
+    getch();
+
 }
 void ortalama() {
     int numbers[10];
